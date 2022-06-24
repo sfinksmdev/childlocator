@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FAQ - Child Locator App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/wpin.svg">
+  <link rel="stylesheet" href="css/styleCLocator.css" />
+</head>
+<body>
+  <header>
+  <a href="index.html">
+  <span>Child Locator App</span>
+  <img src="img/wpin.svg" alt="Child Locator App Icon" id="topIcon">
+  </a>
+</header>
+
+  <div class="divBasicBG">
+    <h1 id="faqHead">Frequently Asked Questions</h1>
+    <div class="faqSection">
+      <div class="btnAccordeon">
+        <span>How can I set the app to display a location?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        Follow these steps to start displaying a child location:
+        <ol>
+          <li>Download Child Locator App on the device in which you want to display a location. From now on
+          we refer to it as a <b>parent's device</b>.</li>
+          <li>Once the app is opened you should see <button type="button" class="btnFAQ" data-image="main.png">this screen</button>. If it is your first time
+          using the app you should create a new account using the <b>create account</b> option. If you already have an account you can <b>use app as parent</b>
+          in order to add children and see their location, or <b>use app as child</b> to make a child device share its location and send its data to the
+          associated parent device. If it is your first time using the app, do the following:
+          <ul>
+            <li><b>Create an account:</b> Create an account using the parent's device by filling in the parent data in
+             <button type="button" class="btnFAQ" data-image="createAccount.png">this screen</button>. Provide your name, a username for your new account, email address,
+             and a new password for the account. You need to have internet access in order to record your account information.
+             Email address has to be a valid email address, we will send you an email with a link to activate your account.
+             Also, in case of forgetting your password, we can send you a link to your email in order to set a new password.
+             Once your account is active by using the link you received in the email you can do the next step.
+            </li>
+            <li><b>Use app as parent</b>: If you are on the create account screen, go back to the main screen by tapping on the arrow on the top left corner and then tap on <q>use app as parent</q>.
+            You will go to <button type="button" class="btnFAQ" data-image="parentLogin.png">this screen</button>. There, you can use your credentials provided when creating an account to
+            login into your account. Note that you need to have internet access in order to verify your credentials. Once you login as a parent you should
+            see <button type="button" class="btnFAQ" data-image="parentMain.png">this screen</button>. There you can start adding new children by using the
+            icon on the right bottom corner. If you tap on adding a child you need to enter the name of the child on
+            <button type="button" class="btnFAQ" data-image="addChild.png">this screen</button> and tap on <b>Add</b>. After adding the new child
+            you should be able to see the child's name on the screen, which should look like
+            <button type="button" class="btnFAQ" data-image="childAdded.png">this screen</button>. There you can tap on the child's name in order to
+            set the child's device or display the child's location, it should look like
+            <button type="button" class="btnFAQ" data-image="childNew.png">this screen</button>.<br><br>
+
+            As for now, no location should be displayed since we need to install the app on the child's device and
+            set it so that it shares the location with the parent's device. We do this in the next step.
+            </li>
+          </ul>
+          </li>
+          <li>Once the app is installed on a parent's device and a child has been added there, we need to install the app
+          on the child's device. Make sure you have internet access on the child's device and that it has the GPS on.
+          After installing and opening the app on the child's device, tap on <b>use app as child</b> on <button type="button" class="btnFAQ" data-image="main.png">this screen</button>.
+          After this, you should see <button type="button" class="btnFAQ" data-image="loginChild.png">this screen</button>. In order to proceed you need to
+          provide the username and password of the parent account created on the app and the unique token associated to the child that is created
+          when a parent adds a new child. You can find this token on the parents device on <button type="button" class="btnFAQ" data-image="childNew.png">this screen</button>
+          if you tap on <b>Instructions</b>. After that, you should see
+          <button type="button" class="btnFAQ" data-image="childToken.png">this screen</button> in which you can see the
+          unique token associated to the child that has to be put when using the app as a child.<br><br>
+
+          If everything worked correctly, after logging in as a child, you should see
+          <button type="button" class="btnFAQ" data-image="childMain.png">this screen</button> and you
+          can start to see the child's location on the parents device if you tap on the top right corner on the
+          box that says <q>Tap here to update location</q>. Once the app gets the child's location, it should be
+          displayed on the parent's device as in
+          <button type="button" class="btnFAQ" data-image="parentLoc1.png">this screen</button>. There you can navigate
+          on the map, zoom in or out and update the location by tapping on the top right corner box. For instance, by
+          zooming in you can see more details about the location as in
+          <button type="button" class="btnFAQ" data-image="parentLoc2.png">this screen</button>.
+        </li>
+        </ol>
+      </div>
+      <div class="btnAccordeon">
+        <span>Is the location of a child stored or shared with other devices than parent's device?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        No. Everytime you want to display the location of a child by tapping on <q>Tap here to update location</q> on the
+        top right corner of <button type="button" class="btnFAQ" data-image="childNew.png">this screen</button>, the parent's device
+        sends a request to the child's device to share its location. Once the location is obtained by the GPS, the child's device will send its location
+        only to the parent device that requested the location. Once the location is shown on the app, the app does not store the location.
+        All requested locations are only shared with devices that requested such location. As a security measure, each account
+        has a private code, only know to the app, which works as a signature to each request. Without such signature, locations are not displayed
+        or submited. Additionally, locations are sent through secure channels using <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS protocol</a>.
+      </div>
+      <div class="btnAccordeon">
+        <span>Why is the app asking for permission to store data?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        If the app is asking for permission to store data, access photos and/or media in your device, probably by seeing
+        <button type="button" class="btnFAQ" data-image="permissionData0.png">this screen</button> or
+        <button type="button" class="btnFAQ" data-image="permissionData1.png">this screen</button>, is because you are probably
+        using the app as a parent and the app needs permission to store data in order to download and save map images
+        to display a location. Without this permission location of a child will not be displayed because the app is not able
+        to store the needed map images to draw a location on the screen.<br><br>
+
+        In order to show the location of a child, the user has to grant this permission when the app asks for it or
+        grant it manually by going to <b>Settings -> Apps -> Child Locator -> Permissions</b> on your device.
+      </div>
+      <div class="btnAccordeon">
+        <span>How to grant/reject location permission to the app?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        If you are using the app as a child, the app needs access the device location in order to
+        send it to a parent device when requested. Usually the app asks for this permission to the user
+        when using it as a child as in
+        <button type="button" class="btnFAQ" data-image="gps1.png">this screen</button> where you can
+        select the appropiate permission. If your GPS is off the app will ask you to turn it on as in
+        <button type="button" class="btnFAQ" data-image="gpsOn.png">this screen</button>.<br><br>
+
+        To manually grant/reject location permission to the app you can go to <b>Settings -> Apps -> Child Locator -> Permissions -> Location</b> on your device
+        and get a screen like <button type="button" class="btnFAQ" data-image="gpsPermission.png">this screen</button>
+        where you can set the corresponding permission.<br><br>
+
+        To manually turn on/off your GPS you can go to <b>Settings -> Location</b> on your device.
+      </div>
+
+      <div class="btnAccordeon">
+        <span>A child location is not being shown</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        This issue can be fixed with the following options
+        <ul>
+          <li>By following the steps in <b>How can I set the app to display a location?</b> above.</li>
+          <li>By making sure both parent device and child device have Internet access.</li>
+          <li>By making sure that the parent's device has permission to store data, see <b>Why is the app asking for permission to store data?</b> above.</li>
+          <li>By making sure that the GPS on the child's device is on and the app has the permission to use it,
+          see <b>How to grant/reject location permission to the app?</b> above.</li>
+        </ul>
+      </div>
+      <div class="btnAccordeon">
+        <span>How can I see the location of more than one child?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        When downloading the app, you have a trial period of 30 days to check its funcitonality and
+        it is restricted to display only the location of one child. In case you like the app and would like
+        to check more than one location you can subscribe to the service by going on the parent's device
+        to the settings menu on the top right corner of
+        <button type="button" class="btnFAQ" data-image="childAdded.png">this screen</button> and then select
+        <b>Service subscription</b> on
+        <button type="button" class="btnFAQ" data-image="settings.png">this screen</button> to
+        set the subscription. <br><br>
+
+        Once you are subscribed to the service, you can add an unlimited number of children to check their locations
+        on one place like in <button type="button" class="btnFAQ" data-image="multipleChildren.png">this screen</button>.
+      </div>
+      <div class="btnAccordeon">
+        <span>How can I stop sharing the location of a device?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        The suggested way to stop sharing a location by the app in a child's device is by logging out from it. To do this, you can go to the child's device, open the app and tap
+        on <b>logout</b> on <button type="button" class="btnFAQ" data-image="childMain.png">this screen</button> and then
+        input your account password on
+        <button type="button" class="btnFAQ" data-image="logoutChild.png">this screen</button>. Once the password is verified,
+        which requires Internet connection, the app stops the process of getting and sharing a location. We require password verification
+        to let parents have control over the app and avoid children to accidentally stop sharing a location from the app.<br><br>
+
+        Note that you can also stop sharing the location of a device by rejecting the location permission granted to the app
+        as explained in <b>How to grant/reject location permission to the app?</b> above.
+      </div>
+      <div class="btnAccordeon">
+        <span>The location displayed by the app is not accurate</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+        </svg>
+      </div>
+      <div class="accordeonContent">
+        The location obtained by a device, and therefore the location displayed on the app, could be inaccurate in some cases and this has
+        nothing to do with the app but instead with the device and the environment in which is the device is located. An accurate location
+        can be achieved with the following
+        <ul>
+          <li>Set your device to get an accurate location instead of an approximate location: In some devices, you can
+          specify this if you go to <b>Settings -> Location</b> to get a screen like
+          <button type="button" class="btnFAQ" data-image="locationExample.png">this</button> in which you can select <b>mode</b>
+          option and get to
+          <button type="button" class="btnFAQ" data-image="locationMode.png">this screen</button> to select a high accuracy location.
+         </li>
+         <li>Be in an open space, near a window or in a place in which a satellite can determine the position of a device. See <a href="https://www.gps.gov/systems/gps/">the global positioning system (GPS)</a>
+           to learn how the positioning system works and <a href="https://www.gps.gov/systems/gps/performance/accuracy/">GPS accuracy</a> to see what
+           aspects may affect its accuracy. In particular, <i><q>GPS-enabled smartphones are typically accurate to within a 4.9 m (16 ft.) radius under open sky. However, their accuracy worsens near buildings, bridges, and trees.</q></i></li>
+         <li>By making multiple location requests to the app: Once a location is displayed, you can
+           request the location again for few more times in order to get a more accurate location.
+         </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="myModal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modal-image" alt="Screen shot" loading="lazy">
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/CLfaq.js"></script>
+</body>
+</html>
